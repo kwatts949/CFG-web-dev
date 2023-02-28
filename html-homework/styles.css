@@ -1,0 +1,47 @@
+header {
+  background-color: bisque;
+  overflow: auto;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  color: purple;
+  text-align: center;
+  text-decoration: underline;
+}
+
+body {
+  background-color: bisque;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  font-size: larger;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+ul, table, footer {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+table, th, td {
+  text-align: center;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+

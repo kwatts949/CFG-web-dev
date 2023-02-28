@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>CSS Exercise</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
@@ -28,40 +27,44 @@
 
     <!-- make the p 300px wide with a vertical margin of 30px -->
     <!-- change the color of the specialText class -->
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, illum? Natus non veniam hic expedita tempora ea
-      impedit dolorem doloribus <span class="specialText">enim magni porro</span> perferendis, eius sunt aperiam velit
-      labore. Nam?
-    </p>
+    <div class="text">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, illum?
+        Natus non veniam hic expedita tempora ea impedit dolorem doloribus
+        <span class="specialText">enim magni porro</span> perferendis, eius sunt
+        aperiam velit labore. Nam?
+      </p>
+    </div>
 
     <!-- ONLY change the font size of the first row of the tbody to 30px -->
-    <table>
-      <thead>
-        <tr>
-          <th>Col 1</th>
-          <th>Col 2</th>
-          <th>Col 3</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- (this one) -->
-        <tr>
-          <td>Col 1</td>
-          <td>Col 2</td>
-          <td>Col 3</td>
-        </tr>
-        <tr>
-          <td>Col 1</td>
-          <td>Col 2</td>
-          <td>Col 3</td>
-        </tr>
-        <tr>
-          <td>Col 1</td>
-          <td>Col 2</td>
-          <td>Col 3</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="table">
+      <table class="center">
+        <thead>
+          <tr>
+            <th>Col 1</th>
+            <th>Col 2</th>
+            <th>Col 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- (this one) -->
+          <tr class="table-title">
+            <td>Col 1</td>
+            <td>Col 2</td>
+            <td>Col 3</td>
+          </tr>
+          <tr>
+            <td>Col 1</td>
+            <td>Col 2</td>
+            <td>Col 3</td>
+          </tr>
+          <tr>
+            <td>Col 1</td>
+            <td>Col 2</td>
+            <td>Col 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
-
 </html>

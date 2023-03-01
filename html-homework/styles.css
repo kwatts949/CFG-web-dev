@@ -1,10 +1,9 @@
 header {
-  background-color: bisque;
   overflow: auto;
 }
 
 h1 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 75px;
   font-weight: bold;
   color: purple;
@@ -13,35 +12,49 @@ h1 {
 }
 
 body {
-  background-color: bisque;
+  background-image: url("./img/grass.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 p {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  color: purple;
+  font-weight: bold;
 }
 
 nav {
   font-size: larger;
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: white;
 }
 
-footer {
+footer, a {
   text-align: center;
+  color: white;
 }
 
 main {
   text-align: center;
 }
 
-ul, table, footer {
-  font-family: 'Ubuntu', sans-serif;
+ul,
+table,
+footer {
+  font-family: "Ubuntu", sans-serif;
+  color: purple;
+  text-align:center;
+  list-style-type: none;
 }
 
-table, th, td {
+table,
+th,
+td {
   text-align: center;
   border: 1px solid;
   margin-left: auto;
   margin-right: auto;
+  color: purple;
 }
-

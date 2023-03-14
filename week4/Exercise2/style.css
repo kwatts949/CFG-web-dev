@@ -1,0 +1,14 @@
+.container {
+  background-color: lightcoral;
+}
+
+.col-sm-4 {
+  font-weight: bold;
+  background-color: bisque;
+}
+
+.row-cols-2 {
+  font-weight: lighter;
+  color: black;
+  background-color: aqua;
+}
